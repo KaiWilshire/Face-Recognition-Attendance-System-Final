@@ -1,0 +1,25 @@
+# Python junk
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# PyCharm settings
+.idea/
+
+# Build and Dist (The 400MB monsters)
+build/
+dist/
+*.exe
+*.pkg
+*.spec
+
+# Your specific AI Data (Don't upload student faces to GitHub!)
+face_id_data/
+attendance_log.csv
+face_encodings.pkl
+
+# System files
+.DS_Store
+Thumbs.db
